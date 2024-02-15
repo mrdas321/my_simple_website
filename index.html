@@ -16,7 +16,11 @@
         <button onclick = "ram()">Next Page</button>
     </body>
     <script>function ram(){
-      var l = prompt('Are you sure about that')
+      var l = confirm('Are you sure about that')
+      if(l==1){
       alert("Thanks for your feedback")
+      }else{
+        alert("OH that's okay");
+      }
     }</script>
 </html>
